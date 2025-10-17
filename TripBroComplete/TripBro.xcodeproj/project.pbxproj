@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA138A7DE47B4628A902B8AB /* TripBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AFA354FB84372845658B0 /* TripBroApp.swift */; };
+		407880DA0A984A4FAA12BF16 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C28BE71A24162B73A36EC /* Trip.swift */; };
+		931A553AA8A747C7A2F673E7 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC0848AD784A2290B20C04 /* AddTripView.swift */; };
+		8EDE110923184812984D3CC2 /* TripRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25D8D2EC04F5E8673B91D /* TripRowView.swift */; };
+		B5CD99DF83804442AF70A446 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE32CA9DC76453CB14FE016 /* TripListView.swift */; };
+		C134B14287A545CE8E458818 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1154419099D54CE8B72B21E2 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB9C745D8D7045C7A5488FDD /* TripBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387AFA354FB84372845658B0 /* TripBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripBroApp.swift; sourceTree = "<group>"; };
+		C73C28BE71A24162B73A36EC /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		AEEC0848AD784A2290B20C04 /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		55D25D8D2EC04F5E8673B91D /* TripRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRowView.swift; sourceTree = "<group>"; };
+		0AE32CA9DC76453CB14FE016 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		1154419099D54CE8B72B21E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FE2DBB74214033A796C0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097330EEE2C249FBA933F81C = {
+			isa = PBXGroup;
+			children = (
+				6A269C141BA24297B77212DD /* TripBro */,
+				1DE6C8D4C5F943F6A94796A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE6C8D4C5F943F6A94796A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C745D8D7045C7A5488FDD /* TripBro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A269C141BA24297B77212DD /* TripBro */ = {
+			isa = PBXGroup;
+			children = (
+				387AFA354FB84372845658B0 /* TripBroApp.swift */,
+				C73C28BE71A24162B73A36EC /* Trip.swift */,
+				AEEC0848AD784A2290B20C04 /* AddTripView.swift */,
+				55D25D8D2EC04F5E8673B91D /* TripRowView.swift */,
+				0AE32CA9DC76453CB14FE016 /* TripListView.swift */,
+				1154419099D54CE8B72B21E2 /* ContentView.swift */,
+			);
+			path = TripBro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2011B8F8E14A5480EB1951 /* TripBro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8130F382B44D4D58AEE10719;
+			buildPhases = (
+				8AE8A754C1424BAA82640DA4 /* Sources */,
+				44FE2DBB74214033A796C0B0 /* Frameworks */,
+				7907080D1BAE446F8F54F823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripBro;
+			productName = TripBro;
+			productReference = BB9C745D8D7045C7A5488FDD /* TripBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96980A16F8424643BF67B401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BD2011B8F8E14A5480EB1951 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CBBB27AAD9FD4BEBB827D231;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 097330EEE2C249FBA933F81C;
+			productRefGroup = 1DE6C8D4C5F943F6A94796A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2011B8F8E14A5480EB1951 /* TripBro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7907080D1BAE446F8F54F823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE8A754C1424BAA82640DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138A7DE47B4628A902B8AB /* TripBroApp.swift in Sources */,
+				407880DA0A984A4FAA12BF16 /* Trip.swift in Sources */,
+				931A553AA8A747C7A2F673E7 /* AddTripView.swift in Sources */,
+				8EDE110923184812984D3CC2 /* TripRowView.swift in Sources */,
+				B5CD99DF83804442AF70A446 /* TripListView.swift in Sources */,
+				C134B14287A545CE8E458818 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6B63F610E6B47ADB019FCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC20F8AADFC449EB86DA834F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5199BF716AD34CB08A73C4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tripbro.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7485DC65FD2948D7ABC37E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tripbro.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBBB27AAD9FD4BEBB827D231 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B63F610E6B47ADB019FCDF /* Debug */,
+				EC20F8AADFC449EB86DA834F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8130F382B44D4D58AEE10719 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EE3440460843C682A807E8 /* Debug */,
+				2AEF1C4554A24B1E92182C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96980A16F8424643BF67B401 /* Project object */;
+}

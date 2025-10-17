@@ -1,10 +1,3 @@
-//
-//  TripBroApp.swift
-//  TripBro
-//
-//  Created by Roger Rocha on 17/10/25.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -12,7 +5,7 @@ import SwiftData
 struct TripBroApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Trip.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
