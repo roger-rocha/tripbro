@@ -11,11 +11,15 @@ final class Trip {
     var budget: Decimal?
     var createdAt: Date
 
+    @Relationship(deleteRule: .cascade)
+    var documents: [Document]?
+
     init(name: String, startDate: Date? = nil, endDate: Date? = nil) {
         self.id = UUID()
         self.name = name
         self.startDate = startDate
         self.endDate = endDate
         self.createdAt = Date()
+        self.documents = []
     }
 }

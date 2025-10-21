@@ -6,6 +6,7 @@ struct TripBroApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Trip.self,
+            Document.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

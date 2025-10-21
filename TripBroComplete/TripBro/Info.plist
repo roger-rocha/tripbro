@@ -18,5 +18,11 @@
     <string>1.0</string>
     <key>CFBundleVersion</key>
     <string>1</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>TripBro needs access to your photos to attach images to your trips for offline viewing.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>TripBro needs access to save photos to your library.</string>
+    <key>UISupportsDocumentBrowser</key>
+    <true/>
 </dict>
 </plist>

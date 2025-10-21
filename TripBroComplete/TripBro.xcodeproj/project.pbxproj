@@ -6,6 +6,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E9807AB406F409DAC3538B1 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117C16013914724860F5D35 /* Document.swift */; };
+		B538C36455784105B168FB7E /* DocumentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837AAC058540476FBDE2588E /* DocumentRepository.swift */; };
+		2D079AA365934714A6EE0BA0 /* DocumentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631A37099ABA40F0873510B2 /* DocumentService.swift */; };
+		BB1451E2CD8741B5B29D64FF /* DocumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7653BAED834DAEB3C9943C /* DocumentListView.swift */; };
+		81AE49F18E3542488CFFD8A4 /* DocumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCC98003C4289ADB232B6 /* DocumentDetailView.swift */; };
+		10963EA27A5A475AB19C4F7E /* DocumentPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC701F1FDCA4D5EB2720BEA /* DocumentPickerView.swift */; };
+		1CAE4E329867438E9B6BB3DF /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B49A461E1A4233969FA3C5 /* TripDetailView.swift */; };
 		FA138A7DE47B4628A902B8AB /* TripBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AFA354FB84372845658B0 /* TripBroApp.swift */; };
 		407880DA0A984A4FAA12BF16 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C28BE71A24162B73A36EC /* Trip.swift */; };
 		931A553AA8A747C7A2F673E7 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC0848AD784A2290B20C04 /* AddTripView.swift */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D117C16013914724860F5D35 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		837AAC058540476FBDE2588E /* DocumentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentRepository.swift; sourceTree = "<group>"; };
+		631A37099ABA40F0873510B2 /* DocumentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentService.swift; sourceTree = "<group>"; };
+		BF7653BAED834DAEB3C9943C /* DocumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListView.swift; sourceTree = "<group>"; };
+		60EFCC98003C4289ADB232B6 /* DocumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailView.swift; sourceTree = "<group>"; };
+		FFC701F1FDCA4D5EB2720BEA /* DocumentPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerView.swift; sourceTree = "<group>"; };
+		72B49A461E1A4233969FA3C5 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
 		BB9C745D8D7045C7A5488FDD /* TripBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387AFA354FB84372845658B0 /* TripBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripBroApp.swift; sourceTree = "<group>"; };
 		C73C28BE71A24162B73A36EC /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -54,7 +68,14 @@
 		6A269C141BA24297B77212DD /* TripBro */ = {
 			isa = PBXGroup;
 			children = (
-				387AFA354FB84372845658B0 /* TripBroApp.swift */,
+								D117C16013914724860F5D35 /* Document.swift */,
+				837AAC058540476FBDE2588E /* DocumentRepository.swift */,
+				631A37099ABA40F0873510B2 /* DocumentService.swift */,
+				BF7653BAED834DAEB3C9943C /* DocumentListView.swift */,
+				60EFCC98003C4289ADB232B6 /* DocumentDetailView.swift */,
+				FFC701F1FDCA4D5EB2720BEA /* DocumentPickerView.swift */,
+				72B49A461E1A4233969FA3C5 /* TripDetailView.swift */,
+387AFA354FB84372845658B0 /* TripBroApp.swift */,
 				C73C28BE71A24162B73A36EC /* Trip.swift */,
 				AEEC0848AD784A2290B20C04 /* AddTripView.swift */,
 				55D25D8D2EC04F5E8673B91D /* TripRowView.swift */,
@@ -132,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA138A7DE47B4628A902B8AB /* TripBroApp.swift in Sources */,
+								7E9807AB406F409DAC3538B1 /* Document.swift in Sources */,
+				B538C36455784105B168FB7E /* DocumentRepository.swift in Sources */,
+				2D079AA365934714A6EE0BA0 /* DocumentService.swift in Sources */,
+				BB1451E2CD8741B5B29D64FF /* DocumentListView.swift in Sources */,
+				81AE49F18E3542488CFFD8A4 /* DocumentDetailView.swift in Sources */,
+				10963EA27A5A475AB19C4F7E /* DocumentPickerView.swift in Sources */,
+				1CAE4E329867438E9B6BB3DF /* TripDetailView.swift in Sources */,
+FA138A7DE47B4628A902B8AB /* TripBroApp.swift in Sources */,
 				407880DA0A984A4FAA12BF16 /* Trip.swift in Sources */,
 				931A553AA8A747C7A2F673E7 /* AddTripView.swift in Sources */,
 				8EDE110923184812984D3CC2 /* TripRowView.swift in Sources */,

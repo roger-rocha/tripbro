@@ -10,7 +10,11 @@ struct TripListView: View {
         NavigationStack {
             List {
                 ForEach(trips) { trip in
-                    TripRowView(trip: trip)
+                    NavigationLink {
+                        TripDetailView(trip: trip)
+                    } label: {
+                        TripRowView(trip: trip)
+                    }
                 }
                 .onDelete(perform: deleteTrips)
             }
